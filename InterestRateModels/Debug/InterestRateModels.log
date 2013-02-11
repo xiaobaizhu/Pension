@@ -1,0 +1,46 @@
+﻿Build started 11/02/2013 12:18:47 PM.
+     1>Project "F:\InterestRateModels\InterestRateModels\InterestRateModels.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\InterestRateModels.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\InterestRateModels.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Mike\Desktop\boost_1_52_0 /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Black_Schole.cpp CashBalance.cpp Generator.cpp Hull_White.cpp Interest_Formula.cpp main.cpp Statistic.cpp Tests.cpp Vasicek.cpp WriteFile.cpp
+         WriteFile.cpp
+         Vasicek.cpp
+     1>c:\users\mike\desktop\boost_1_52_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Tests.cpp
+     1>c:\users\mike\desktop\boost_1_52_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>f:\interestratemodels\interestratemodels\tests.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Statistic.cpp
+         main.cpp
+     1>c:\users\mike\desktop\boost_1_52_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Interest_Formula.cpp
+         Hull_White.cpp
+     1>c:\users\mike\desktop\boost_1_52_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Generator.cpp
+     1>c:\users\mike\desktop\boost_1_52_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         CashBalance.cpp
+         Black_Schole.cpp
+     1>c:\users\mike\desktop\boost_1_52_0\boost\format\alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\InterestRateModels\Debug\InterestRateModels.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Mike\Desktop\boost_1_52_0 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\InterestRateModels\Debug\InterestRateModels.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\InterestRateModels\Debug\InterestRateModels.lib" /MACHINE:X86 Debug\Black_Schole.obj
+         Debug\CashBalance.obj
+         Debug\Generator.obj
+         Debug\Hull_White.obj
+         Debug\Interest_Formula.obj
+         Debug\main.obj
+         Debug\Statistic.obj
+         Debug\Tests.obj
+         Debug\Vasicek.obj
+         Debug\WriteFile.obj
+         InterestRateModels.vcxproj -> F:\InterestRateModels\Debug\InterestRateModels.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\InterestRateModels.unsuccessfulbuild".
+         Touching "Debug\InterestRateModels.lastbuildstate".
+     1>Done Building Project "F:\InterestRateModels\InterestRateModels\InterestRateModels.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.31
