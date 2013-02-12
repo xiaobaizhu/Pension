@@ -5,7 +5,7 @@ namespace InterestRateModels
 function<double (double)> instantaneous_forward_rates (double maturity[], double yields[], int n);
 
 function<double (double)> market_price (double maturity[], double yields[], int n);
-
+double yield_rate_zerobond (double price, double time);
 
 double spot_rates_continuous (double price, double period);
 

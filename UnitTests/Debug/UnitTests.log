@@ -1,0 +1,20 @@
+﻿Build started 2/11/2013 11:54:55 PM.
+     1>Project "F:\InterestRateModels\UnitTests\UnitTests.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\UnitTests.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\InterestRateModels\Debug\UnitTests.dll" /INCREMENTAL /NOLOGO /LIBPATH:F:\InterestRateModels\InterestRateModels /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\InterestRateModels\Debug\UnitTests.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\InterestRateModels\Debug\UnitTests.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         Debug\unittest1.obj
+         F:\InterestRateModels\Debug\InterestRateModels.lib
+         UnitTests.vcxproj -> F:\InterestRateModels\Debug\UnitTests.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\UnitTests.unsuccessfulbuild".
+         Touching "Debug\UnitTests.lastbuildstate".
+     1>Done Building Project "F:\InterestRateModels\UnitTests\UnitTests.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31
